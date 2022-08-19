@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.header {
+    height: 100vh;
+    background-position: bottom;
+    background-image: url('./img/bg..jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: auto;
+}
+
+.header-menu {
+    text-align: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 40px;
+}
+
+.header-title>span {
+    font-style: italic;
+}
+
+.header-title {
+    color: white;
+    padding-top: 360px;
+    font-size: 75px;
+    width: 56%;
+}
